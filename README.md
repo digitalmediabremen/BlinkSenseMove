@@ -26,3 +26,4 @@ A general purpose PCB/Toolkit for easy usage of sensors and actuators
 5) H-Bridge
 6) 7-Segment-Display
 7) Add-On-Interface for stuff like Encoders or Analogsticks and similiar stuff.
+8) motor board *only* ( H-bridge+mosfet, stepper-driver, PWM for high-current/loads )
