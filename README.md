@@ -4,6 +4,8 @@ A general purpose PCB/Toolkit for easy usage of sensors and actuators
 
 # Hardware
 
+maximum PCB dimensions: 100×100mm ( = 1,76/10pcs @[jlcpcb](http://jlcpcb.com) )
+
 ## MCU-Ideas
 
 ( supported by Arduino IDE )
