@@ -29,3 +29,4 @@ A general purpose PCB/Toolkit for easy usage of sensors and actuators
 8) motor board *only* ( H-bridge+mosfet, stepper-driver, PWM for high-current/loads )
 9) Making the wiring Modular
 10) Mic- and Piezoamp, maybe also a switchable direct out to Felix Audio out.
+11) frequency devider / counter ic
