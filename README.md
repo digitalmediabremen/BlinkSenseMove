@@ -30,3 +30,11 @@ A general purpose PCB/Toolkit for easy usage of sensors and actuators
 9) Making the wiring Modular
 10) Mic- and Piezoamp, maybe also a switchable direct out to Felix Audio out.
 11) frequency devider / counter ic
+
+
+## Bill of materials
+- 3.5 mm jack
+- AKL
+- 595 (SMD?)
+- IRF530 (SMD)
+- 7seg/4Digit
