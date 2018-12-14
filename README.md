@@ -40,3 +40,4 @@ maximum PCB dimensions: 100×100mm ( = 1,76/10pcs @[jlcpcb](http://jlcpcb.com) )
 - 595 (SMD?)
 - IRF530 (SMD)
 - 7seg/4Digit
+- spannungsregler MC7805CD2TG (SMD) (1A 5V für teensy und externe komponenten)
