@@ -33,6 +33,10 @@ maximum PCB dimensions: 100×100mm ( = 1,76/10pcs @[jlcpcb](http://jlcpcb.com) )
 10) Mic- and Piezoamp, maybe also a switchable direct out to Felix Audio out.
 11) frequency devider / counter ic
 12) Making it modular (plugging and using boards together, with one microcontroller)
+13) encoder
+14) 2 potis
+
+
 
 ## Bill of materials
 - 3.5 mm jack
