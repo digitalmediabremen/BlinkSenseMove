@@ -26331,6 +26331,10 @@ Source: www.kingbright.com</description>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -26362,7 +26366,7 @@ Anschlüsse gejumpert, wenn was anderes angesclossen werden soll, jumper ziehen
 
 Potis b10k -&gt; done
 
-Buttons
+Buttons -&gt; done
 
 Farbcode für jumper
 
@@ -26370,6 +26374,10 @@ LM293 Strom von 12v in -&gt; done
 
 Opamp-Verstärker</text>
 <text x="238.76" y="55.88" size="6.4516" layer="91">BUTTONS</text>
+<text x="261.62" y="35.56" size="1.778" layer="91">button here</text>
+<text x="289.56" y="35.56" size="1.778" layer="91">button here</text>
+<text x="121.92" y="78.74" size="1.778" layer="91" rot="R90">DO NOT USE</text>
+<text x="121.92" y="50.8" size="1.778" layer="91" rot="R90">DO NOT USE</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="96.52" y="68.58" smashed="yes"/>
@@ -26569,6 +26577,20 @@ Opamp-Verstärker</text>
 <instance part="SUPPLY7" gate="1" x="345.44" y="152.4" smashed="yes" rot="R180">
 <attribute name="VALUE" x="346.71" y="151.13" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="GND16" gate="1" x="251.46" y="25.4" smashed="yes">
+<attribute name="VALUE" x="248.92" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="256.54" y="30.48" smashed="yes">
+<attribute name="NAME" x="252.73" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="255.27" y="27.178" size="1.778" layer="96"/>
+</instance>
+<instance part="GND17" gate="1" x="279.4" y="25.4" smashed="yes">
+<attribute name="VALUE" x="276.86" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="284.48" y="30.48" smashed="yes">
+<attribute name="NAME" x="280.67" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="283.21" y="27.178" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26651,6 +26673,16 @@ Opamp-Verstärker</text>
 <segment>
 <pinref part="SENSOR" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="251.46" y1="30.48" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="30.48" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -26852,12 +26884,6 @@ Opamp-Verstärker</text>
 </net>
 <net name="L293EN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D32"/>
-<wire x1="116.84" y1="100.33" x2="134.62" y2="100.33" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="100.33" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<label x="134.62" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="1-2EN"/>
 <wire x1="347.98" y1="198.12" x2="345.44" y2="198.12" width="0.1524" layer="91"/>
 <label x="345.44" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -26947,11 +26973,6 @@ Opamp-Verstärker</text>
 <wire x1="289.56" y1="165.1" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="289.56" y="162.56" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D33"/>
-<wire x1="116.84" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<label x="119.38" y="104.14" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -26968,23 +26989,12 @@ Opamp-Verstärker</text>
 <wire x1="175.26" y1="104.14" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <label x="175.26" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D31/A20"/>
-<wire x1="116.84" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="119.38" y="96.52" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="POT2" class="0">
 <segment>
 <pinref part="R8" gate="1" pin="3"/>
 <wire x1="210.82" y1="104.14" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
 <label x="210.82" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D30/A19"/>
-<wire x1="116.84" y1="92.71" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<label x="134.62" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -27003,6 +27013,10 @@ Opamp-Verstärker</text>
 <wire x1="205.74" y1="86.36" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="187.96" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="261.62" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<label x="289.56" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -27159,11 +27173,6 @@ Opamp-Verstärker</text>
 </net>
 <net name="SENSORPORT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D29/A18"/>
-<wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<label x="119.38" y="88.9" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="B" pin="2"/>
 <pinref part="JP3" gate="B" pin="4"/>
 <wire x1="180.34" y1="27.94" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
@@ -27181,6 +27190,56 @@ Opamp-Verstärker</text>
 <wire x1="314.96" y1="-2.54" x2="238.76" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="-2.54" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BUTTON1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D5"/>
+<wire x1="76.2" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="73.66" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="30.48" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="261.62" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="BUTTON2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D7"/>
+<wire x1="76.2" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="73.66" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="30.48" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="289.56" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<wire x1="261.62" y1="40.64" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<wire x1="289.56" y1="40.64" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<wire x1="119.38" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="63.5" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<wire x1="119.38" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="106.68" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
