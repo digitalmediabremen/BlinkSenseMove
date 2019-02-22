@@ -10060,13 +10060,6 @@ diameter 7 mm, grid 2.54 mm</description>
 <packageinstance name="TT2D7L"/>
 </packageinstances>
 </package3d>
-<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/1" type="box" library_version="3">
-<description>ELECTROLYTIC CAPACITOR
-diameter 7 mm, grid 2.54 mm</description>
-<packageinstances>
-<packageinstance name="TT2D7"/>
-</packageinstances>
-</package3d>
 <package3d name="TT5D10" urn="urn:adsk.eagle:package:23302/1" type="box" library_version="3">
 <description>ELECTROLYTIC CAPACITOR
 diameter 10 mm, grid 5.08 mm</description>
@@ -10428,13 +10421,6 @@ grid 45.72 mm, diameter 25 mm</description>
 <packageinstance name="E45-25"/>
 </packageinstances>
 </package3d>
-<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/1" type="box" library_version="3">
-<description>ELECTROLYTIC CAPACITOR
-grid 5.08 mm, diameter 10.5 mm</description>
-<packageinstances>
-<packageinstance name="E5-10,5"/>
-</packageinstances>
-</package3d>
 <package3d name="E5-13" urn="urn:adsk.eagle:package:23375/1" type="box" library_version="3">
 <description>ELECTROLYTIC CAPACITOR
 grid 5.08 mm, diameter 13 mm</description>
@@ -10571,166 +10557,6 @@ http://www.bccomponents.com/</description>
 <packageinstance name="085CS_1AW"/>
 </packageinstances>
 </package3d>
-<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-2W"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3R"/>
-</packageinstances>
-</package3d>
-<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors wave soldering
-SMD (Chip) Long Life 139 CLL
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="139CLL-3W"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, High temperature 140 CLH
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="140CLH-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors SMD (Chip)
-Long life base plate, very low impedance 150 CLZ
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="150CLZ-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0405"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0505"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0605"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0807"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-0810"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1010"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1012"/>
-</packageinstances>
-</package3d>
-<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-SMD (Chip) Long Life Vertical 153 CLV
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="153CLV-1014"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0808"/>
-</packageinstances>
-</package3d>
-<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/1" type="box" library_version="3">
-<description>Aluminum electrolytic capacitors
-High Temperature solid electrolytic SMD 175 TMP
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="175TMP-0810"/>
-</packageinstances>
-</package3d>
 <package3d name="A/3216-18R" urn="urn:adsk.eagle:package:23410/2" type="model" library_version="3">
 <description>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solderKEMET S / EIA 3216-12</description>
 <packageinstances>
@@ -10757,12 +10583,6 @@ KEMET T / EIA 3528-12</description>
 <packageinstance name="B/3528-21W"/>
 </packageinstances>
 </package3d>
-<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/1" type="box" library_version="3">
-<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
-<packageinstances>
-<packageinstance name="C/6032-28R"/>
-</packageinstances>
-</package3d>
 <package3d name="E/7260-38R" urn="urn:adsk.eagle:package:23416/1" type="box" library_version="3">
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 reflow solder</description>
 <packageinstances>
@@ -10773,12 +10593,6 @@ KEMET T / EIA 3528-12</description>
 <description>Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder</description>
 <packageinstances>
 <packageinstance name="E/7260-38W"/>
-</packageinstances>
-</package3d>
-<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/1" type="box" library_version="3">
-<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
-<packageinstances>
-<packageinstance name="R/2012-12R"/>
 </packageinstances>
 </package3d>
 <package3d name="PANASONIC_A" urn="urn:adsk.eagle:package:23418/2" type="model" library_version="3">
@@ -11109,14 +10923,6 @@ grid 5.08 mm, diameter 5 mm</description>
 <packageinstance name="E5-5"/>
 </packageinstances>
 </package3d>
-<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/2" type="box" library_version="7">
-<description>Aluminum electrolytic capacitors reflow soldering
-SMD (Chip) Standard 085 CS
-http://www.bccomponents.com/</description>
-<packageinstances>
-<packageinstance name="085CS_1AR"/>
-</packageinstances>
-</package3d>
 <package3d name="C/6032-28W" urn="urn:adsk.eagle:package:23420/2" type="model" library_version="7">
 <description>Chip Capacitor Type KEMET C / EIA 6032-28 Wafe solder
 KEMET U / EIA 6032-15</description>
@@ -11141,62 +10947,6 @@ KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 Wafe solder</description>
 <description>Chip Capacitor Type KEMET R/EIA 2012-12 Wafe solder</description>
 <packageinstances>
 <packageinstance name="R/2012-12W"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/1" type="box" library_version="7">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_A"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/1" type="box" library_version="7">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_Z"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/1" type="box" library_version="7">
-<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_P"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/1" type="box" library_version="7">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_B"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/1" type="box" library_version="7">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_C"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/1" type="box" library_version="7">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_D"/>
-</packageinstances>
-</package3d>
-<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/1" type="box" library_version="7">
-<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
-Siemens Matsushita Components B 45 194, B 45 197, B 45 198
-Source: www.farnell.com/datasheets/247.pdf</description>
-<packageinstances>
-<packageinstance name="SMC_E"/>
 </packageinstances>
 </package3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model" library_version="7">
@@ -12346,6 +12096,256 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
+<package3d name="TT2D7" urn="urn:adsk.eagle:package:23319/2" type="model" library_version="10">
+<description>ELECTROLYTIC CAPACITOR
+diameter 7 mm, grid 2.54 mm</description>
+<packageinstances>
+<packageinstance name="TT2D7"/>
+</packageinstances>
+</package3d>
+<package3d name="E5-10,5" urn="urn:adsk.eagle:package:23372/2" type="model" library_version="10">
+<description>ELECTROLYTIC CAPACITOR
+grid 5.08 mm, diameter 10.5 mm</description>
+<packageinstances>
+<packageinstance name="E5-10,5"/>
+</packageinstances>
+</package3d>
+<package3d name="085CS_1AR" urn="urn:adsk.eagle:package:23396/3" type="box" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Standard 085 CS
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="085CS_1AR"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2R" urn="urn:adsk.eagle:package:23387/3" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-2W" urn="urn:adsk.eagle:package:23386/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-2W"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3R" urn="urn:adsk.eagle:package:23388/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors reflow soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3R"/>
+</packageinstances>
+</package3d>
+<package3d name="139CLL-3W" urn="urn:adsk.eagle:package:23390/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors wave soldering
+SMD (Chip) Long Life 139 CLL
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="139CLL-3W"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-0810" urn="urn:adsk.eagle:package:23392/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1010" urn="urn:adsk.eagle:package:23391/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="140CLH-1014" urn="urn:adsk.eagle:package:23393/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, High temperature 140 CLH
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="140CLH-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-0810" urn="urn:adsk.eagle:package:23394/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1010" urn="urn:adsk.eagle:package:23403/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="150CLZ-1014" urn="urn:adsk.eagle:package:23405/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors SMD (Chip)
+Long life base plate, very low impedance 150 CLZ
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="150CLZ-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0405" urn="urn:adsk.eagle:package:23397/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0405"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0505" urn="urn:adsk.eagle:package:23402/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0505"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0605" urn="urn:adsk.eagle:package:23398/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0605"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0807" urn="urn:adsk.eagle:package:23400/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0807"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-0810" urn="urn:adsk.eagle:package:23401/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1010" urn="urn:adsk.eagle:package:23413/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1010"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1012" urn="urn:adsk.eagle:package:23404/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1012"/>
+</packageinstances>
+</package3d>
+<package3d name="153CLV-1014" urn="urn:adsk.eagle:package:23406/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+SMD (Chip) Long Life Vertical 153 CLV
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="153CLV-1014"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0808" urn="urn:adsk.eagle:package:23412/2" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0808"/>
+</packageinstances>
+</package3d>
+<package3d name="175TMP-0810" urn="urn:adsk.eagle:package:23407/3" type="model" library_version="10">
+<description>Aluminum electrolytic capacitors
+High Temperature solid electrolytic SMD 175 TMP
+http://www.bccomponents.com/</description>
+<packageinstances>
+<packageinstance name="175TMP-0810"/>
+</packageinstances>
+</package3d>
+<package3d name="C/6032-28R" urn="urn:adsk.eagle:package:23415/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET C / EIA 6032-28 reflow solderKEMET U / EIA 6032-15</description>
+<packageinstances>
+<packageinstance name="C/6032-28R"/>
+</packageinstances>
+</package3d>
+<package3d name="R/2012-12R" urn="urn:adsk.eagle:package:23426/2" type="model" library_version="10">
+<description>Chip Capacitor Type KEMET R/EIA 2012-12 reflow solder</description>
+<packageinstances>
+<packageinstance name="R/2012-12R"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_A" urn="urn:adsk.eagle:package:25926/3" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_A"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_Z" urn="urn:adsk.eagle:package:25927/3" type="model" library_version="10">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_Z"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_P" urn="urn:adsk.eagle:package:25919/2" type="model" library_version="10">
+<description>Chip Capacitor Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_P"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_B" urn="urn:adsk.eagle:package:25920/5" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_B"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_C" urn="urn:adsk.eagle:package:25921/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_C"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_D" urn="urn:adsk.eagle:package:25923/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_D"/>
+</packageinstances>
+</package3d>
+<package3d name="SMC_E" urn="urn:adsk.eagle:package:25922/2" type="model" library_version="10">
+<description>Chip Capacitor  Polar tantalum capacitors with solid electrolyte
+Siemens Matsushita Components B 45 194, B 45 197, B 45 198
+Source: www.farnell.com/datasheets/247.pdf</description>
+<packageinstances>
+<packageinstance name="SMC_E"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CPOL" urn="urn:adsk.eagle:symbol:22801/1" library_version="3">
@@ -12400,7 +12400,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CPOL-EU" urn="urn:adsk.eagle:component:23787/24" prefix="C" uservalue="yes" library_version="7">
+<deviceset name="CPOL-EU" urn="urn:adsk.eagle:component:23787/27" prefix="C" uservalue="yes" library_version="10">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL" x="0" y="0"/>
@@ -12608,7 +12608,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23319/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23319/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13364,7 +13364,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23372/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23372/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13644,7 +13644,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23396/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23396/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13672,7 +13672,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23387/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23387/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13686,7 +13686,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23386/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23386/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13700,7 +13700,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23388/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23388/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13714,7 +13714,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23390/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23390/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13728,7 +13728,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23392/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23392/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13742,7 +13742,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23391/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23391/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13756,7 +13756,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23393/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23393/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13770,7 +13770,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23394/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23394/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13784,7 +13784,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23403/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23403/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13798,7 +13798,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23405/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23405/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13812,7 +13812,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23397/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23397/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13826,7 +13826,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23402/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23402/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13840,7 +13840,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23398/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23398/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13854,7 +13854,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23400/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23400/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13868,7 +13868,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23401/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23401/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13882,7 +13882,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23413/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23413/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13896,7 +13896,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23404/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23404/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13910,7 +13910,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23406/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23406/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13924,7 +13924,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23412/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23412/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -13938,7 +13938,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23407/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23407/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14008,7 +14008,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23415/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23415/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14092,7 +14092,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23426/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23426/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14246,7 +14246,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25926/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25926/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14260,7 +14260,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25927/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25927/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14274,7 +14274,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25919/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25919/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14288,7 +14288,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25920/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25920/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14302,7 +14302,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25921/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25921/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14316,7 +14316,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25923/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25923/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14330,7 +14330,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25922/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25922/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -26266,6 +26266,268 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-omron" urn="urn:adsk.eagle:library:377">
+<description>&lt;b&gt;Omron Switches&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="B3F-10XX" urn="urn:adsk.eagle:footprint:27476/1" library_version="2">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<wire x1="3.302" y1="-0.762" x2="3.048" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.302" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="0.762" x2="-3.048" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.302" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.0508" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.0508" layer="51"/>
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="-1.27" y2="2.794" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="2.794" x2="1.27" y2="3.048" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="-1.27" y2="-2.794" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.794" x2="1.143" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="-2.794" x2="-1.27" y2="-3.048" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="-3.048" x2="-1.27" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="3.048" x2="-1.27" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="3.048" x2="-2.159" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-3.048" x2="1.143" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-3.048" x2="2.159" y2="-3.048" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-0.762" x2="3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.762" x2="3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="-0.762" x2="-3.048" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.159" x2="1.27" y2="-2.159" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="2.286" x2="-1.27" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.27" x2="-2.413" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.508" x2="-2.413" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.508" x2="-2.159" y2="-0.381" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.1524" layer="21"/>
+<circle x="-2.159" y="-2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="-2.032" radius="0.508" width="0.1524" layer="51"/>
+<circle x="2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="-2.159" y="2.159" radius="0.508" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.254" width="0.1524" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" shape="long"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" shape="long"/>
+<text x="-3.048" y="3.683" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.318" y="1.651" size="1.27" layer="51" ratio="10">1</text>
+<text x="3.556" y="1.524" size="1.27" layer="51" ratio="10">2</text>
+<text x="-4.572" y="-2.794" size="1.27" layer="51" ratio="10">3</text>
+<text x="3.556" y="-2.794" size="1.27" layer="51" ratio="10">4</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="B3F-10XX" urn="urn:adsk.eagle:package:27496/1" type="box" library_version="2">
+<description>OMRON SWITCH</description>
+<packageinstances>
+<packageinstance name="B3F-10XX"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TS2" urn="urn:adsk.eagle:symbol:27469/1" library_version="2">
+<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="2.54" radius="0.127" width="0.4064" layer="94"/>
+<text x="-6.35" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="S1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="P1" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10-XX" urn="urn:adsk.eagle:component:27498/1" prefix="S" uservalue="yes" library_version="2">
+<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="TS2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3F-10XX">
+<connects>
+<connect gate="1" pin="P" pad="3"/>
+<connect gate="1" pin="P1" pad="4"/>
+<connect gate="1" pin="S" pad="1"/>
+<connect gate="1" pin="S1" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27496/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="B3F-1000" constant="no"/>
+<attribute name="OC_FARNELL" value="176432" constant="no"/>
+<attribute name="OC_NEWARK" value="36M3542" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="maxim" urn="urn:adsk.eagle:library:269">
+<description>&lt;b&gt;Maxim Components&lt;/b&gt;&lt;p&gt;
+
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL24-3" urn="urn:adsk.eagle:footprint:3288/1" library_version="3">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 0.3 inch</description>
+<wire x1="-14.986" y1="-0.635" x2="-14.986" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="0.635" x2="-14.986" y2="-0.635" width="0.1524" layer="21" curve="-180"/>
+<wire x1="14.986" y1="-2.794" x2="14.986" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="-2.794" x2="14.986" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="2.794" x2="14.986" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-14.986" y1="2.794" x2="-14.986" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="17" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="18" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="19" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="20" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="21" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="22" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="23" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="24" x="-13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-15.2908" y="-2.667" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-13.462" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIL24-3" urn="urn:adsk.eagle:package:3299/3" type="model" library_version="3">
+<description>Dual In Line Package 0.3 inch</description>
+<packageinstances>
+<packageinstance name="DIL24-3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MAX7219" urn="urn:adsk.eagle:symbol:17231/1" library_version="3">
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="7.62" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.4064" layer="94"/>
+<text x="-10.16" y="20.955" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DIG2" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="DIG3" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="DIG4" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="DIG5" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="DIG6" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="DIG7" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="SEGA" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SEGB" x="12.7" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="SEGC" x="12.7" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="SEGD" x="12.7" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="SEGE" x="12.7" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="SEGF" x="12.7" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="SEGG" x="12.7" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="SEGDP" x="12.7" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="DIG1" x="12.7" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="DIG0" x="12.7" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="DIN" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="DOUT" x="-15.24" y="5.08" length="middle" direction="out"/>
+<pin name="LOAD" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="CLK" x="-15.24" y="17.78" length="middle" direction="in" function="clk"/>
+<pin name="ISET" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="GND@2" x="-15.24" y="-20.32" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-15.24" y="-17.78" length="middle" direction="pwr"/>
+<pin name="VCC" x="-15.24" y="-15.24" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX7219CNG" urn="urn:adsk.eagle:component:17892/3" prefix="IC" library_version="3">
+<description>&lt;b&gt;LED DISPLAY DRIVER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX7219" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL24-3">
+<connects>
+<connect gate="G$1" pin="CLK" pad="13"/>
+<connect gate="G$1" pin="DIG0" pad="2"/>
+<connect gate="G$1" pin="DIG1" pad="11"/>
+<connect gate="G$1" pin="DIG2" pad="6"/>
+<connect gate="G$1" pin="DIG3" pad="7"/>
+<connect gate="G$1" pin="DIG4" pad="3"/>
+<connect gate="G$1" pin="DIG5" pad="10"/>
+<connect gate="G$1" pin="DIG6" pad="5"/>
+<connect gate="G$1" pin="DIG7" pad="8"/>
+<connect gate="G$1" pin="DIN" pad="1"/>
+<connect gate="G$1" pin="DOUT" pad="24"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="9"/>
+<connect gate="G$1" pin="ISET" pad="18"/>
+<connect gate="G$1" pin="LOAD" pad="12"/>
+<connect gate="G$1" pin="SEGA" pad="14"/>
+<connect gate="G$1" pin="SEGB" pad="16"/>
+<connect gate="G$1" pin="SEGC" pad="20"/>
+<connect gate="G$1" pin="SEGD" pad="23"/>
+<connect gate="G$1" pin="SEGDP" pad="22"/>
+<connect gate="G$1" pin="SEGE" pad="21"/>
+<connect gate="G$1" pin="SEGF" pad="15"/>
+<connect gate="G$1" pin="SEGG" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="19"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3299/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MAXIM" constant="no"/>
+<attribute name="MPN" value="MAX7219CNG" constant="no"/>
+<attribute name="OC_FARNELL" value="1523914" constant="no"/>
+<attribute name="OC_NEWARK" value="34C4018" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26322,7 +26584,6 @@ Source: www.kingbright.com</description>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="&quot;" package3d_urn="urn:adsk.eagle:package:38138/1"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100uf"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10M"/>
 <part name="SENSOR" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="2.54MM_SCREWTERM" package3d_urn="urn:adsk.eagle:package:38059/1"/>
 <part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP3Q" device="" package3d_urn="urn:adsk.eagle:package:15460/1"/>
@@ -26335,6 +26596,14 @@ Source: www.kingbright.com</description>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
+<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
+<part name="IC3" library="maxim" library_urn="urn:adsk.eagle:library:269" deviceset="MAX7219CNG" device="" package3d_urn="urn:adsk.eagle:package:3299/3"/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:23421/2" value="10uf"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -26353,14 +26622,12 @@ guten rausuchen</text>
 <text x="317.5" y="129.54" size="6.4516" layer="91">STEPPERDRIVER</text>
 <text x="109.22" y="187.96" size="1.778" layer="91">jumper am 7805 vorbei</text>
 <text x="152.4" y="55.88" size="6.4516" layer="91">SENSORPORT</text>
-<text x="320.04" y="15.24" size="1.778" layer="91">TODO
+<text x="406.4" y="71.12" size="1.778" layer="91">TODO
 
 Sensorport
 mit variablem pull up/pull down mit jumper oder schiebeschalter mit trimmer und kleinem widerstand -&gt; Done
 
-7 Segment mit shiftregister
-
-Dotmatrix?
+Dotmatrix mit max7219
 
 Anschlüsse gejumpert, wenn was anderes angesclossen werden soll, jumper ziehen
 
@@ -26374,8 +26641,9 @@ LM293 Strom von 12v in -&gt; done
 
 Opamp-Verstärker</text>
 <text x="238.76" y="55.88" size="6.4516" layer="91">BUTTONS</text>
-<text x="261.62" y="35.56" size="1.778" layer="91">button here</text>
-<text x="289.56" y="35.56" size="1.778" layer="91">button here</text>
+<text x="121.92" y="78.74" size="1.778" layer="91" rot="R90">DO NOT USE</text>
+<text x="121.92" y="50.8" size="1.778" layer="91" rot="R90">DO NOT USE</text>
+<text x="317.5" y="55.88" size="6.4516" layer="91">MAX7219</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="96.52" y="68.58" smashed="yes"/>
@@ -26543,9 +26811,6 @@ Opamp-Verstärker</text>
 <instance part="GND13" gate="1" x="345.44" y="96.52" smashed="yes" rot="R270">
 <attribute name="VALUE" x="342.9" y="99.06" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C4" gate="G$1" x="347.98" y="93.98" smashed="yes">
-<attribute name="NAME" x="341.884" y="91.821" size="1.778" layer="95"/>
-</instance>
 <instance part="R10" gate="G$1" x="205.74" y="38.1" smashed="yes">
 <attribute name="NAME" x="201.93" y="39.5986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.01" y="39.878" size="1.778" layer="96"/>
@@ -26588,6 +26853,35 @@ Opamp-Verstärker</text>
 <instance part="R13" gate="G$1" x="284.48" y="30.48" smashed="yes">
 <attribute name="NAME" x="280.67" y="31.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="283.21" y="27.178" size="1.778" layer="96"/>
+</instance>
+<instance part="S1" gate="1" x="261.62" y="35.56" smashed="yes">
+<attribute name="NAME" x="255.27" y="33.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="257.81" y="38.735" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="S2" gate="1" x="289.56" y="35.56" smashed="yes">
+<attribute name="NAME" x="283.21" y="33.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="285.75" y="38.735" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC3" gate="G$1" x="360.68" y="25.4" smashed="yes">
+<attribute name="NAME" x="350.52" y="46.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="350.52" y="0" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="+5V" x="322.58" y="12.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="319.405" y="10.795" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="1" x="325.12" y="5.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="322.58" y="7.62" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C5" gate="G$1" x="340.36" y="10.16" smashed="yes">
+<attribute name="NAME" x="334.264" y="8.001" size="1.778" layer="95"/>
+</instance>
+<instance part="C6" gate="G$1" x="330.2" y="10.16" smashed="yes">
+<attribute name="NAME" x="331.343" y="10.6426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="331.343" y="5.5626" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="347.98" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.837" y="90.9574" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="346.837" y="96.0374" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -26662,13 +26956,6 @@ Opamp-Verstärker</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="350.52" y1="96.52" x2="347.98" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<junction x="347.98" y="96.52"/>
-</segment>
-<segment>
 <pinref part="SENSOR" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
@@ -26681,6 +26968,26 @@ Opamp-Verstärker</text>
 <wire x1="279.4" y1="30.48" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="R13" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND@2"/>
+<wire x1="327.66" y1="5.08" x2="330.2" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="GND@1"/>
+<wire x1="330.2" y1="5.08" x2="340.36" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="5.08" x2="345.44" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="5.08" x2="345.44" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<junction x="340.36" y="5.08"/>
+<pinref part="C6" gate="G$1" pin="-"/>
+<junction x="330.2" y="5.08"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="7"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="350.52" y1="96.52" x2="347.98" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="-"/>
+<junction x="347.98" y="96.52"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -26769,6 +27076,19 @@ Opamp-Verstärker</text>
 <pinref part="IC2" gate="G$1" pin="VCC1"/>
 <wire x1="383.54" y1="198.12" x2="378.46" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="+5V" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="SUPPLY8" gate="+5V" pin="+5V"/>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="12.7" x2="330.2" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="12.7" x2="340.36" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="12.7" x2="342.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="12.7" x2="342.9" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="10.16" x2="345.44" y2="10.16" width="0.1524" layer="91"/>
+<junction x="340.36" y="12.7"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<junction x="330.2" y="12.7"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -26882,40 +27202,30 @@ Opamp-Verstärker</text>
 </net>
 <net name="L293EN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D32"/>
-<wire x1="116.84" y1="100.33" x2="134.62" y2="100.33" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="100.33" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<label x="134.62" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="1-2EN"/>
 <wire x1="347.98" y1="198.12" x2="345.44" y2="198.12" width="0.1524" layer="91"/>
 <label x="345.44" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D8"/>
+<wire x1="76.2" y1="24.13" x2="73.66" y2="24.13" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="24.13" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="55.88" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="L293IN1" class="0">
+<net name="L293IN01" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="1A"/>
 <wire x1="347.98" y1="193.04" x2="345.44" y2="193.04" width="0.1524" layer="91"/>
 <label x="345.44" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D21/A7"/>
-<wire x1="116.84" y1="39.37" x2="134.62" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="39.37" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<label x="134.62" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="L293IN2" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="2A"/>
-<wire x1="347.98" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
-<label x="345.44" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D20/A6"/>
-<wire x1="116.84" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<label x="119.38" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D6"/>
+<wire x1="76.2" y1="31.75" x2="73.66" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="31.75" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="55.88" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -26978,9 +27288,11 @@ Opamp-Verstärker</text>
 <label x="289.56" y="162.56" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D33"/>
-<wire x1="116.84" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<label x="119.38" y="104.14" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D2"/>
+<wire x1="76.2" y1="46.99" x2="73.66" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="46.99" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -26994,27 +27306,14 @@ Opamp-Verstärker</text>
 </net>
 <net name="POT1" class="0">
 <segment>
-<pinref part="R7" gate="1" pin="3"/>
-<wire x1="175.26" y1="104.14" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
-<label x="175.26" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D31/A20"/>
-<wire x1="116.84" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="119.38" y="96.52" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D22/A8"/>
+<wire x1="116.84" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POT2" class="0">
 <segment>
-<pinref part="R8" gate="1" pin="3"/>
-<wire x1="210.82" y1="104.14" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
-<label x="210.82" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="D30/A19"/>
-<wire x1="116.84" y1="92.71" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
-<label x="134.62" y="91.44" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D18/A4"/>
+<wire x1="116.84" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -27033,10 +27332,10 @@ Opamp-Verstärker</text>
 <wire x1="205.74" y1="86.36" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
 <label x="187.96" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
-<label x="261.62" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="261.62" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="289.56" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="289.56" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -27142,10 +27441,11 @@ Opamp-Verstärker</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
 <wire x1="350.52" y1="93.98" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="350.52" y1="88.9" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="88.9" x2="335.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="335.28" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="335.28" y1="88.9" x2="347.98" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<junction x="347.98" y="88.9"/>
+<wire x1="347.98" y1="88.9" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -27162,6 +27462,7 @@ Opamp-Verstärker</text>
 <pinref part="JP3" gate="B" pin="5"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="38.1" x2="195.58" y2="33.02" width="0.1524" layer="91"/>
+<junction x="195.58" y="33.02"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -27169,6 +27470,7 @@ Opamp-Verstärker</text>
 <pinref part="JP3" gate="B" pin="3"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<junction x="195.58" y="30.48"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -27176,6 +27478,7 @@ Opamp-Verstärker</text>
 <pinref part="JP3" gate="B" pin="1"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="27.94" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+<junction x="195.58" y="27.94"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -27189,14 +27492,11 @@ Opamp-Verstärker</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="22.86" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
 <junction x="210.82" y="30.48"/>
+<junction x="210.82" y="22.86"/>
+<junction x="220.98" y="33.02"/>
 </segment>
 </net>
 <net name="SENSORPORT" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D29/A18"/>
-<wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
-<label x="119.38" y="88.9" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="JP3" gate="B" pin="2"/>
 <pinref part="JP3" gate="B" pin="4"/>
@@ -27207,6 +27507,12 @@ Opamp-Verstärker</text>
 <wire x1="180.34" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
 <junction x="180.34" y="33.02"/>
 <label x="175.26" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="180.34" y="27.94"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D9"/>
+<wire x1="76.2" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="73.66" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -27217,38 +27523,210 @@ Opamp-Verstärker</text>
 <wire x1="238.76" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BUTTON1" class="0">
+<net name="BUTTON01" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="30.48" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="261.62" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="S1" gate="1" pin="P"/>
+<junction x="261.62" y="30.48"/>
+<pinref part="S1" gate="1" pin="P1"/>
+<wire x1="264.16" y1="30.48" x2="261.62" y2="30.48" width="0.1524" layer="91"/>
+<junction x="264.16" y="30.48"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D4"/>
+<wire x1="76.2" y1="39.37" x2="73.66" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="39.37" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="55.88" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BUTTON02" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="30.48" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
+<label x="289.56" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="S2" gate="1" pin="P"/>
+<junction x="289.56" y="30.48"/>
+<pinref part="S2" gate="1" pin="P1"/>
+<wire x1="289.56" y1="30.48" x2="292.1" y2="30.48" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D5"/>
 <wire x1="76.2" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
 <label x="73.66" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="N$22" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="261.62" y1="30.48" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
-<label x="261.62" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="119.38" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="63.5" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BUTTON2" class="0">
+<net name="N$23" class="0">
+<segment>
+<wire x1="119.38" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="68.58" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="106.68" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIOOUT" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="A14/DAC"/>
+<wire x1="116.84" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<label x="124.46" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="S1" gate="1" pin="S"/>
+<wire x1="261.62" y1="43.18" x2="261.62" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="S1"/>
+<wire x1="261.62" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
+<junction x="264.16" y="40.64"/>
+<junction x="261.62" y="40.64"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="S2" gate="1" pin="S"/>
+<wire x1="289.56" y1="43.18" x2="289.56" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="S2" gate="1" pin="S1"/>
+<wire x1="289.56" y1="40.64" x2="292.1" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<wire x1="317.5" y1="66.04" x2="401.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="66.04" x2="401.32" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="-2.54" x2="317.5" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-2.54" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="CLK"/>
+<wire x1="345.44" y1="43.18" x2="340.36" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="LOAD"/>
+<wire x1="345.44" y1="38.1" x2="340.36" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="DIN"/>
+<wire x1="345.44" y1="33.02" x2="340.36" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D0"/>
+<wire x1="76.2" y1="54.61" x2="73.66" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="54.61" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D1"/>
+<wire x1="76.2" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D10"/>
+<wire x1="76.2" y1="16.51" x2="73.66" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="16.51" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D11"/>
+<wire x1="76.2" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D12"/>
+<wire x1="76.2" y1="8.89" x2="73.66" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="8.89" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="L293IN02" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="2A"/>
+<wire x1="347.98" y1="167.64" x2="345.44" y2="167.64" width="0.1524" layer="91"/>
+<label x="345.44" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D7"/>
 <wire x1="76.2" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <label x="73.66" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="POT01" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="289.56" y1="30.48" x2="289.56" y2="27.94" width="0.1524" layer="91"/>
-<label x="289.56" y="27.94" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="A11"/>
+<wire x1="116.84" y1="54.61" x2="124.46" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="54.61" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+<label x="132.08" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R7" gate="1" pin="3"/>
+<wire x1="175.26" y1="104.14" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
+<label x="175.26" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$32" class="0">
 <segment>
-<wire x1="261.62" y1="40.64" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D23/A9"/>
+<wire x1="116.84" y1="46.99" x2="124.46" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="46.99" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$33" class="0">
 <segment>
-<wire x1="289.56" y1="40.64" x2="289.56" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D21/A7"/>
+<wire x1="116.84" y1="39.37" x2="124.46" y2="39.37" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="39.37" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D19/A5"/>
+<wire x1="116.84" y1="31.75" x2="124.46" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="31.75" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D20/A6"/>
+<wire x1="116.84" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="POT02" class="0">
+<segment>
+<pinref part="R8" gate="1" pin="3"/>
+<wire x1="210.82" y1="104.14" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
+<label x="210.82" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A10"/>
+<wire x1="116.84" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<label x="119.38" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
