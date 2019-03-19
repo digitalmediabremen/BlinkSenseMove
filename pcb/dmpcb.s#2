@@ -26604,6 +26604,7 @@ Source: www.kingbright.com</description>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="B" package3d_urn="urn:adsk.eagle:package:23421/2" value="10uf"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="D" package3d_urn="urn:adsk.eagle:package:23424/2" value="100uf"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -26644,6 +26645,7 @@ Opamp-Verstärker</text>
 <text x="121.92" y="78.74" size="1.778" layer="91" rot="R90">DO NOT USE</text>
 <text x="121.92" y="50.8" size="1.778" layer="91" rot="R90">DO NOT USE</text>
 <text x="317.5" y="55.88" size="6.4516" layer="91">MAX7219</text>
+<text x="88.9" y="43.18" size="1.778" layer="91" rot="R90">pwm?</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="96.52" y="68.58" smashed="yes"/>
@@ -26883,6 +26885,10 @@ Opamp-Verstärker</text>
 <attribute name="NAME" x="346.837" y="90.9574" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="346.837" y="96.0374" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="R14" gate="G$1" x="345.44" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="346.9386" y="24.13" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="342.138" y="21.59" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27089,6 +27095,8 @@ Opamp-Verstärker</text>
 <junction x="340.36" y="12.7"/>
 <pinref part="C6" gate="G$1" pin="+"/>
 <junction x="330.2" y="12.7"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="15.24" x2="345.44" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -27607,22 +27615,44 @@ Opamp-Verstärker</text>
 <wire x1="317.5" y1="-2.54" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="MAX7219CLK" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="CLK"/>
 <wire x1="345.44" y1="43.18" x2="340.36" y2="43.18" width="0.1524" layer="91"/>
+<label x="340.36" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D12"/>
+<wire x1="76.2" y1="8.89" x2="73.66" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="8.89" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
+<label x="53.34" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="MAX7219LOAD" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="LOAD"/>
 <wire x1="345.44" y1="38.1" x2="340.36" y2="38.1" width="0.1524" layer="91"/>
+<label x="340.36" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D11"/>
+<wire x1="76.2" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
+<label x="73.66" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="MAX7219DIN" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="DIN"/>
 <wire x1="345.44" y1="33.02" x2="340.36" y2="33.02" width="0.1524" layer="91"/>
+<label x="340.36" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D10"/>
+<wire x1="76.2" y1="16.51" x2="73.66" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="16.51" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="53.34" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -27630,35 +27660,6 @@ Opamp-Verstärker</text>
 <pinref part="U$1" gate="G$1" pin="D0"/>
 <wire x1="76.2" y1="54.61" x2="73.66" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="54.61" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D1"/>
-<wire x1="76.2" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D10"/>
-<wire x1="76.2" y1="16.51" x2="73.66" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="16.51" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D11"/>
-<wire x1="76.2" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D12"/>
-<wire x1="76.2" y1="8.89" x2="73.66" y2="8.89" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="8.89" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L293IN02" class="0">
@@ -27727,6 +27728,12 @@ Opamp-Verstärker</text>
 <pinref part="U$1" gate="G$1" pin="A10"/>
 <wire x1="116.84" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
 <label x="119.38" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="ISET"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
