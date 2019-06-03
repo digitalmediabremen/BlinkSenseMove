@@ -27536,6 +27536,14 @@ guten rausuchen</text>
 <junction x="208.28" y="20.32"/>
 </segment>
 </net>
+<net name="N$63" class="0">
+<segment>
+<wire x1="403.86" y1="213.36" x2="403.86" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="-2.54" x2="431.8" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="213.36" x2="431.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="213.36" x2="431.8" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

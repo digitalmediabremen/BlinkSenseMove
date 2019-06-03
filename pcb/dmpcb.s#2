@@ -26029,7 +26029,6 @@ DRV8825</text>
 <text x="12.7" y="172.72" size="1.778" layer="91">INPUT 7 - 20 Volt</text>
 <text x="66.04" y="193.04" size="1.778" layer="91">MC 7805 CDTG (1A)</text>
 <text x="40.64" y="129.54" size="6.4516" layer="91">TEENSY 3.2 | LC</text>
-<text x="43.18" y="0" size="1.778" layer="91">am besten dann auf die rückseite mirrorn</text>
 <text x="12.7" y="165.1" size="1.778" layer="91">dummy stecker
 guten rausuchen</text>
 <text x="238.76" y="203.2" size="6.4516" layer="91">MOSFET01</text>
@@ -26039,24 +26038,6 @@ guten rausuchen</text>
 <text x="317.5" y="129.54" size="6.4516" layer="91">STEPPERDRIVER</text>
 <text x="76.2" y="187.96" size="1.778" layer="91">jumper am 7805 vorbei</text>
 <text x="152.4" y="129.54" size="6.4516" layer="91">SENSORPORT</text>
-<text x="406.4" y="71.12" size="1.778" layer="91">TODO
-
-Sensorport
-mit variablem pull up/pull down mit jumper oder schiebeschalter mit trimmer und kleinem widerstand -&gt; Done
-
-Dotmatrix mit max7219
-
-Anschlüsse gejumpert, wenn was anderes angesclossen werden soll, jumper ziehen
-
-Potis b10k -&gt; done
-
-Buttons -&gt; done
-
-Farbcode für jumper
-
-LM293 Strom von 12v in -&gt; done
-
-Opamp-Verstärker</text>
 <text x="238.76" y="55.88" size="6.4516" layer="91">BUTTONS</text>
 <text x="317.5" y="55.88" size="6.4516" layer="91">MAX7219</text>
 <text x="152.4" y="55.88" size="6.4516" layer="91">OPAMP</text>
