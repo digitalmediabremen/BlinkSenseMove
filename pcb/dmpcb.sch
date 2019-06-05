@@ -29472,6 +29472,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
 </parts>
 <sheets>
 <sheet>
@@ -29833,9 +29834,9 @@ guten rausuchen</text>
 <instance part="C4" gate="G$1" x="297.18" y="-33.02" smashed="yes">
 <attribute name="NAME" x="291.084" y="-35.179" size="1.778" layer="95"/>
 </instance>
-<instance part="IC5" gate="A" x="312.42" y="-27.94" smashed="yes">
-<attribute name="NAME" x="314.96" y="-24.765" size="1.778" layer="95"/>
-<attribute name="VALUE" x="314.96" y="-33.02" size="1.778" layer="96"/>
+<instance part="IC5" gate="A" x="307.34" y="-27.94" smashed="yes">
+<attribute name="NAME" x="309.88" y="-24.765" size="1.778" layer="95"/>
+<attribute name="VALUE" x="309.88" y="-33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="1" x="327.66" y="-35.56" smashed="yes">
 <attribute name="NAME" x="321.691" y="-39.37" size="1.778" layer="95" rot="R90"/>
@@ -29872,15 +29873,18 @@ guten rausuchen</text>
 <attribute name="NAME" x="195.58" y="-37.465" size="1.778" layer="95"/>
 <attribute name="VALUE" x="195.58" y="-45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="P" x="312.42" y="-27.94" smashed="yes"/>
-<instance part="SUPPLY14" gate="+5V" x="312.42" y="-15.24" smashed="yes">
-<attribute name="VALUE" x="310.515" y="-12.065" size="1.778" layer="96"/>
+<instance part="IC5" gate="P" x="307.34" y="-27.94" smashed="yes"/>
+<instance part="SUPPLY14" gate="+5V" x="307.34" y="-15.24" smashed="yes">
+<attribute name="VALUE" x="305.435" y="-12.065" size="1.778" layer="96"/>
 </instance>
-<instance part="GND26" gate="1" x="312.42" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="309.88" y="-40.64" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="304.8" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="302.26" y="-40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="GND28" gate="1" x="297.18" y="-45.72" smashed="yes">
-<attribute name="VALUE" x="294.64" y="-48.26" size="1.778" layer="96"/>
+<instance part="GND28" gate="1" x="297.18" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="294.64" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="312.42" y="-20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="310.261" y="-14.224" size="1.778" layer="95" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -30043,19 +30047,26 @@ guten rausuchen</text>
 <segment>
 <pinref part="IC5" gate="P" pin="V-"/>
 <pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="307.34" y1="-35.56" x2="304.8" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-35.56" x2="317.5" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="307.34" y="-35.56"/>
+<wire x1="317.5" y1="-35.56" x2="317.5" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-20.32" x2="314.96" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 <segment>
+<pinref part="GND28" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="-38.1" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="-43.18" x2="327.66" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="R19" gate="1" pin="A"/>
+<wire x1="297.18" y1="-43.18" x2="297.18" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="-43.18" x2="327.66" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="-43.18" x2="370.84" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="327.66" y="-43.18"/>
 <pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="-43.18" x2="370.84" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="-33.02" x2="375.92" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="327.66" y1="-43.18" x2="297.18" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="327.66" y="-43.18"/>
 <junction x="297.18" y="-43.18"/>
 </segment>
 </net>
@@ -30198,7 +30209,9 @@ guten rausuchen</text>
 <segment>
 <pinref part="SUPPLY14" gate="+5V" pin="+5V"/>
 <pinref part="IC5" gate="P" pin="V+"/>
-<wire x1="312.42" y1="-17.78" x2="312.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="-17.78" x2="307.34" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<junction x="307.34" y="-20.32"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -31197,22 +31210,22 @@ guten rausuchen</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="-25.4" x2="297.18" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="-25.4" x2="297.18" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="-25.4" x2="304.8" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="-25.4" x2="299.72" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="297.18" y="-25.4"/>
 <pinref part="IC5" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<wire x1="304.8" y1="-30.48" x2="304.8" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-40.64" x2="320.04" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-40.64" x2="320.04" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-27.94" x2="327.66" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="-30.48" x2="299.72" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="-40.64" x2="314.96" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="-40.64" x2="314.96" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="-27.94" x2="327.66" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="-27.94" x2="327.66" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R19" gate="1" pin="E"/>
 <pinref part="IC5" gate="A" pin="-IN"/>
 <pinref part="IC5" gate="A" pin="OUT"/>
-<junction x="320.04" y="-27.94"/>
+<junction x="314.96" y="-27.94"/>
 </segment>
 </net>
 <net name="N$71" class="0">
