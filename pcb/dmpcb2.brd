@@ -301,6 +301,33 @@ hfk bremen v.01</text>
 <text x="79.375" y="40.005" size="1.016" layer="25" align="center">R1</text>
 <text x="79.375" y="45.085" size="1.016" layer="25" align="center">R2</text>
 <text x="81.915" y="99.06" size="1.016" layer="25" align="center">IC1</text>
+<text x="94.615" y="91.44" size="1.016" layer="25" rot="R180" align="center">X1</text>
+<text x="93.98" y="60.325" size="1.016" layer="25" rot="R180" align="center">X5</text>
+<text x="94.615" y="46.355" size="1.016" layer="25" rot="R180" align="center">X4</text>
+<text x="94.615" y="33.655" size="1.016" layer="25" rot="R180" align="center">X7</text>
+<text x="94.615" y="10.795" size="1.016" layer="25" rot="R180" align="center">X6</text>
+<text x="5.715" y="8.89" size="1.016" layer="25" rot="R180" align="center">X3</text>
+<text x="5.715" y="41.275" size="1.016" layer="25" rot="R180" align="center">X2</text>
+<text x="5.715" y="60.325" size="1.016" layer="25" rot="R180" align="center">X8</text>
+<text x="5.715" y="48.895" size="1.016" layer="25" rot="R180" align="center">X8</text>
+<text x="1.905" y="54.61" size="1.016" layer="26" rot="MR270" align="center">SENSORPORT</text>
+<text x="7.62" y="57.15" size="1.016" layer="26" rot="MR180" align="center-left">5V</text>
+<text x="7.62" y="52.07" size="1.016" layer="26" rot="MR180" align="center-left">GND</text>
+<text x="1.905" y="30.48" size="1.016" layer="26" rot="MR90" align="center">DRV8825 OUT</text>
+<text x="7.62" y="38.1" size="1.016" layer="26" rot="MR180" align="center-left">A2</text>
+<text x="7.62" y="33.02" size="1.016" layer="26" rot="MR180" align="center-left">A1</text>
+<text x="7.62" y="27.94" size="1.016" layer="26" rot="MR180" align="center-left">B1</text>
+<text x="7.62" y="22.86" size="1.016" layer="26" rot="MR180" align="center-left">A2</text>
+<text x="1.905" y="14.605" size="1.016" layer="26" rot="MR90" align="center">DRV8825 VIN</text>
+<text x="7.62" y="12.065" size="1.016" layer="26" rot="MR180" align="center-left">GND</text>
+<text x="7.62" y="17.145" size="1.016" layer="26" rot="MR180" align="center-left">+</text>
+<text x="97.79" y="16.51" size="1.016" layer="26" rot="MR270" align="center">HB 01 OUT</text>
+<text x="97.79" y="27.94" size="1.016" layer="26" rot="MR270" align="center">HB 02 OUT</text>
+<text x="97.79" y="40.64" size="1.016" layer="26" rot="MR270" align="center">MOSFET 01 OUT</text>
+<text x="97.79" y="54.61" size="1.016" layer="26" rot="MR270" align="center">MOSFET 02 OUT</text>
+<text x="97.79" y="85.725" size="1.016" layer="26" rot="MR270" align="center">POWER IN</text>
+<text x="92.075" y="83.185" size="1.016" layer="26" rot="MR0" align="center-left">GND</text>
+<text x="92.075" y="88.265" size="1.016" layer="26" rot="MR0" align="center-left">+</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -4246,7 +4273,6 @@ design rules under a new name.</description>
 <element name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="93.345" y="85.725" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="93.345" y="85.725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="237-102" x="93.345" y="85.725" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="98.3488" y="89.5712" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.345" y="85.725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="93.345" y="85.725" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="32" x="93.345" y="85.725" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4337,7 +4363,6 @@ design rules under a new name.</description>
 <element name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-4" package3d_urn="urn:adsk.eagle:package:10695/1" value="" x="6.35" y="30.48" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="6.35" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="6.35" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-1.0922" y="39.2246" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="6.35" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="6.35" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="10" x="6.35" y="30.48" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4346,7 +4371,6 @@ design rules under a new name.</description>
 <element name="X3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="6.35" y="14.605" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="6.35" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="237-102" x="6.35" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="1.3462" y="18.4512" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="6.35" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="6.35" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="6.35" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4359,7 +4383,6 @@ design rules under a new name.</description>
 <element name="X4" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="93.345" y="40.64" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="93.345" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="237-102" x="93.345" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="98.3488" y="44.4862" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.345" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="93.345" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="32" x="93.345" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4368,7 +4391,6 @@ design rules under a new name.</description>
 <element name="X5" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="93.345" y="54.61" smashed="yes" rot="MR270">
 <attribute name="MF" value="" x="93.345" y="54.61" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="237-102" x="93.345" y="54.61" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="98.3488" y="58.4562" size="1.27" layer="26" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.345" y="54.61" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="93.345" y="54.61" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POPULARITY" value="32" x="93.345" y="54.61" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4377,7 +4399,6 @@ design rules under a new name.</description>
 <element name="X6" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="93.345" y="16.51" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="93.345" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="237-102" x="93.345" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="98.3488" y="12.6638" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.345" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="93.345" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="32" x="93.345" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4386,7 +4407,6 @@ design rules under a new name.</description>
 <element name="X7" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="93.345" y="27.94" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="93.345" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="237-102" x="93.345" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="98.3488" y="24.0938" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="93.345" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="93.345" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="32" x="93.345" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4395,7 +4415,6 @@ design rules under a new name.</description>
 <element name="X8" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="6.35" y="54.61" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="6.35" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="237-102" x="6.35" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="1.3462" y="58.4562" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="6.35" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="70K9898" x="6.35" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULARITY" value="32" x="6.35" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
