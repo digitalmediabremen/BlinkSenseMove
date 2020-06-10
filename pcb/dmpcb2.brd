@@ -326,8 +326,8 @@ hfk bremen v.01</text>
 <text x="97.79" y="40.64" size="1.016" layer="26" rot="MR270" align="center">MOSFET 01 OUT</text>
 <text x="97.79" y="54.61" size="1.016" layer="26" rot="MR270" align="center">MOSFET 02 OUT</text>
 <text x="97.79" y="85.725" size="1.016" layer="26" rot="MR270" align="center">POWER IN</text>
-<text x="92.075" y="83.185" size="1.016" layer="26" rot="MR0" align="center-left">GND</text>
-<text x="92.075" y="88.265" size="1.016" layer="26" rot="MR0" align="center-left">+</text>
+<text x="92.075" y="83.185" size="1.016" layer="26" rot="MR0" align="center-left">+ (with jumper 7-12V, without 5V)</text>
+<text x="92.075" y="88.265" size="1.016" layer="26" rot="MR0" align="center-left">GND</text>
 <text x="46.99" y="51.435" size="1.778" layer="1">BLINK.
 SENSE.
 MOVE.</text>
