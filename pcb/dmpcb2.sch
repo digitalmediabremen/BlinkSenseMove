@@ -31678,6 +31678,7 @@ high speed (Philips)</description>
 <part name="X8" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38065/1"/>
+<part name="EXT_5V1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -31771,16 +31772,16 @@ guten rausuchen</text>
 <attribute name="NAME" x="49.3014" y="196.85" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.102" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED_01" gate="G$1" x="104.14" y="175.26" smashed="yes">
-<attribute name="NAME" x="107.696" y="170.688" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.855" y="170.688" size="1.778" layer="96" rot="R90"/>
+<instance part="LED_01" gate="G$1" x="119.38" y="175.26" smashed="yes">
+<attribute name="NAME" x="122.936" y="170.688" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.095" y="170.688" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="104.14" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="158.75" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="158.75" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="119.38" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.8814" y="161.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.682" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="104.14" y="152.4" smashed="yes">
-<attribute name="VALUE" x="101.6" y="149.86" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="119.38" y="154.94" smashed="yes">
+<attribute name="VALUE" x="116.84" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="287.02" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="284.48" y="121.92" size="1.778" layer="95" rot="R180"/>
@@ -32146,6 +32147,10 @@ guten rausuchen</text>
 <attribute name="VALUE" x="434.34" y="177.546" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="434.34" y="164.592" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="EXT_5V1" gate="A" x="58.42" y="195.58" smashed="yes">
+<attribute name="NAME" x="57.15" y="195.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="64.135" y="195.58" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32195,7 +32200,7 @@ guten rausuchen</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="104.14" y1="157.48" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="160.02" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="1" pin="2"/>
@@ -32363,18 +32368,19 @@ guten rausuchen</text>
 <pinref part="SUPPLY1" gate="1" pin="V+"/>
 <wire x1="40.64" y1="193.04" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <label x="48.26" y="185.42" size="1.778" layer="95"/>
-<pinref part="IC1" gate="A1" pin="VI"/>
 <wire x1="40.64" y1="182.88" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="50.8" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="182.88" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="182.88" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
-<junction x="55.88" y="182.88"/>
 <pinref part="C3" gate="G$1" pin="+"/>
 <wire x1="50.8" y1="187.96" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
 <junction x="50.8" y="182.88"/>
 <pinref part="X1" gate="-1" pin="KL"/>
 <junction x="40.64" y="182.88"/>
+<pinref part="EXT_5V1" gate="A" pin="1"/>
+<wire x1="55.88" y1="182.88" x2="58.42" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="182.88" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
+<junction x="55.88" y="182.88"/>
 </segment>
 <segment>
 <wire x1="257.81" y1="187.96" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
@@ -32477,7 +32483,11 @@ guten rausuchen</text>
 <pinref part="EXT_5V" gate="A" pin="2"/>
 <wire x1="114.3" y1="193.04" x2="114.3" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
-<wire x1="114.3" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="LED_01" gate="G$1" pin="A"/>
+<wire x1="119.38" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="177.8" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<junction x="119.38" y="182.88"/>
 </segment>
 <segment>
 <pinref part="5V" gate="1" pin="5"/>
@@ -32608,7 +32618,6 @@ guten rausuchen</text>
 <segment>
 <pinref part="LED_01" gate="G$1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="170.18" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -33545,15 +33554,11 @@ guten rausuchen</text>
 <label x="91.44" y="185.42" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="182.88" x2="104.14" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="182.88" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
 <junction x="88.9" y="182.88"/>
-<pinref part="LED_01" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="177.8" x2="104.14" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="EXT_5V" gate="A" pin="1"/>
 <wire x1="111.76" y1="193.04" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="182.88" x2="104.14" y2="182.88" width="0.1524" layer="91"/>
-<junction x="104.14" y="182.88"/>
 </segment>
 </net>
 <net name="M1" class="0">
@@ -33631,6 +33636,14 @@ guten rausuchen</text>
 <wire x1="424.18" y1="167.64" x2="419.1" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="167.64" x2="419.1" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="193.04" x2="378.46" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="EXT_5V1" gate="A" pin="2"/>
+<wire x1="60.96" y1="193.04" x2="60.96" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A1" pin="VI"/>
+<wire x1="60.96" y1="182.88" x2="63.5" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
