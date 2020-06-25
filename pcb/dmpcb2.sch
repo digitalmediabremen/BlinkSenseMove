@@ -31679,6 +31679,8 @@ high speed (Philips)</description>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38065/1"/>
 <part name="EXT_5V1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf"/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32151,6 +32153,12 @@ guten rausuchen</text>
 <attribute name="NAME" x="57.15" y="195.58" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="64.135" y="195.58" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C5" gate="G$1" x="198.12" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="200.279" y="32.004" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="GND27" gate="1" x="208.28" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="210.82" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32362,6 +32370,11 @@ guten rausuchen</text>
 <wire x1="408.94" y1="121.92" x2="396.24" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="203.2" y1="38.1" x2="205.74" y2="38.1" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V+" class="0">
 <segment>
@@ -32453,6 +32466,9 @@ guten rausuchen</text>
 <pinref part="SUPPLY12" gate="+5V" pin="+5V"/>
 <pinref part="IC4" gate="P" pin="V+"/>
 <wire x1="193.04" y1="40.64" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
+<junction x="193.04" y="38.1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="+5V" pin="+5V"/>
