@@ -1,4 +1,4 @@
-# DM_PCB
+# Blink Sense Move.
 
 A general purpose PCB/Toolkit for easy usage of sensors and actuators
 
