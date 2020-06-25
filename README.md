@@ -7,20 +7,20 @@ A general purpose PCB/Toolkit for easy usage of sensors and actuators
 1. maximum PCB dimensions: 100×100mm ( = 1,76/10pcs @[jlcpcb](http://jlcpcb.com) )
 2. uses teensy 3.2 as mcu
 3. features
-  a. 2 mosfets
-  b. h-bridge
-  c. amplfiers for external sensors
-  d. display (only dotmatrix for now, v2 will also offer pins for oled)
-  e. stepperdriver
-  f. clean audio output with lpf
-  g. potentiometers
-  h. buttons
-  i. patchable io
+  - 2 mosfets
+  - h-bridge
+  - amplfiers for external sensors
+  - display (only dotmatrix for now, v2 will also offer pins for oled)
+  - stepperdriver
+  - clean audio output with lpf
+  - potentiometers
+  - buttons
+  - patchable io
   
 4. version 2 will feature
-  a. midi
-  b. choice of display
-  c. possibly cleaner powersolution
+  - midi
+  - choice of display
+  - possibly cleaner powersolution
 
 
 -----
