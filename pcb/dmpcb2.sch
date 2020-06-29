@@ -31870,6 +31870,7 @@ high speed (Philips)</description>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uf"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="J3" library="SJ-3523-SMT-TR" deviceset="SJ-3523-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32365,6 +32366,10 @@ guten rausuchen</text>
 </instance>
 <instance part="SUPPLY18" gate="+5V" x="373.38" y="7.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="376.555" y="9.525" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="J3" gate="G$1" x="434.34" y="-10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="439.440409375" y="-15.897959375" size="2.201440625" layer="95" rot="R180"/>
+<attribute name="VALUE" x="439.44061875" y="-2.50906875" size="2.20203125" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
