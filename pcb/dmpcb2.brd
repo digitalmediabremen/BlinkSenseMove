@@ -328,6 +328,7 @@ MOVE.</text>
 <text x="46.99" y="51.435" size="1.778" layer="29">BLINK.
 SENSE.
 MOVE.</text>
+<dimension x1="97.517684375" y1="98.46099375" x2="96.482315625" y2="95.53900625" x3="107.315003125" y3="93.345009375" textsize="1.778" layer="1" dtype="diameter"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -4590,10 +4591,10 @@ design rules under a new name.</description>
 <element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03_LOCK_LONGPADS" package3d_urn="urn:adsk.eagle:package:38065/1" value="" x="75.565" y="27.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="73.152" y="29.21" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="EXT_5V1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="91.821" y="94.615" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.361" y="92.964" size="1.27" layer="25" ratio="10" rot="R180"/>
-<attribute name="POPULARITY" value="61" x="91.821" y="94.615" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="94.361" y="97.536" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="EXT_5V1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="90.805" y="94.361" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.456" y="96.901" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="61" x="90.805" y="94.361" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="87.884" y="96.901" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nf" x="15.24" y="59.69" smashed="yes">
 <attribute name="NAME" x="12.065" y="59.69" size="1.016" layer="25" font="vector" align="center"/>
@@ -4766,12 +4767,15 @@ design rules under a new name.</description>
 <wire x1="89.65" y1="88.38" x2="91.186" y2="86.844" width="1.27" layer="1"/>
 <wire x1="91.186" y1="84.074" x2="91.44" y2="83.82" width="1.016" layer="1"/>
 <wire x1="91.186" y1="86.844" x2="91.186" y2="84.074" width="1.27" layer="1"/>
-<wire x1="93.091" y1="94.615" x2="93.091" y2="91.186" width="1.27" layer="1"/>
 <wire x1="90.285" y1="88.38" x2="89.65" y2="88.38" width="1.27" layer="1"/>
 <wire x1="93.091" y1="91.186" x2="90.285" y2="88.38" width="1.27" layer="1"/>
 <wire x1="26.67" y1="15.24" x2="24.765" y2="17.145" width="1.27" layer="16"/>
 <wire x1="24.765" y1="17.145" x2="22.86" y2="17.145" width="1.27" layer="16"/>
 <wire x1="26.67" y1="3.0226" x2="26.67" y2="15.24" width="1.27" layer="16"/>
+<wire x1="90.805" y1="95.631" x2="92.964" y2="95.631" width="1.016" layer="1"/>
+<wire x1="92.964" y1="95.631" x2="93.345" y2="95.25" width="1.016" layer="1"/>
+<wire x1="93.345" y1="95.25" x2="93.345" y2="91.44" width="1.016" layer="1"/>
+<wire x1="93.345" y1="91.44" x2="93.091" y2="91.186" width="1.016" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="IC2" pad="16"/>
@@ -5876,8 +5880,8 @@ design rules under a new name.</description>
 <contactref element="EXT_5V1" pad="2"/>
 <contactref element="IC1" pad="1"/>
 <wire x1="87.985" y1="91.065" x2="87.985" y2="92.43" width="1.016" layer="1"/>
-<wire x1="90.17" y1="94.615" x2="90.551" y2="94.615" width="1.016" layer="1"/>
-<wire x1="87.985" y1="92.43" x2="90.17" y2="94.615" width="1.016" layer="1"/>
+<wire x1="87.985" y1="92.43" x2="88.646" y2="93.091" width="1.016" layer="1"/>
+<wire x1="88.646" y1="93.091" x2="90.805" y2="93.091" width="1.016" layer="1"/>
 </signal>
 <signal name="OLEDRES">
 <contactref element="SV1" pad="5"/>
