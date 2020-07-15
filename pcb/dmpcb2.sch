@@ -32971,6 +32971,7 @@ high speed (Philips)</description>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uf"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="SOCKET_IN1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -33466,6 +33467,10 @@ guten rausuchen</text>
 </instance>
 <instance part="SUPPLY18" gate="+5V" x="373.38" y="7.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="376.555" y="9.525" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SOCKET_IN1" gate="G$1" x="350.52" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="340.614" y="27.94" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="358.648" y="27.94" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
