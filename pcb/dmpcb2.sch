@@ -32848,6 +32848,9 @@ high speed (Philips)</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<groups>
+<schematic_group name="LED"/>
+</groups>
 <parts>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
@@ -32972,6 +32975,12 @@ high speed (Philips)</description>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SOCKET_IN1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
+<part name="LED_02" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R"/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="LED_03" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220R"/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32994,6 +33003,7 @@ guten rausuchen</text>
 <text x="238.76" y="-15.24" size="6.4516" layer="91">BETTEROUT</text>
 <text x="238.76" y="-17.78" size="1.778" layer="91">designed by Felix Fisgus</text>
 <text x="152.4" y="-15.24" size="6.4516" layer="91">OPAMP</text>
+<text x="68.58" y="-15.24" size="6.4516" layer="91">USERLEDS</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="40.64" y="165.1" smashed="yes">
@@ -33065,15 +33075,15 @@ guten rausuchen</text>
 <attribute name="NAME" x="49.3014" y="196.85" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="54.102" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED_01" gate="G$1" x="119.38" y="175.26" smashed="yes">
+<instance part="LED_01" gate="G$1" x="119.38" y="175.26" smashed="yes" grouprefs="LED">
 <attribute name="NAME" x="122.936" y="170.688" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="125.095" y="170.688" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="119.38" y="165.1" smashed="yes" rot="R90">
+<instance part="R4" gate="G$1" x="119.38" y="165.1" smashed="yes" rot="R90" grouprefs="LED">
 <attribute name="NAME" x="117.8814" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="119.38" y="154.94" smashed="yes">
+<instance part="GND9" gate="1" x="119.38" y="154.94" smashed="yes" grouprefs="LED">
 <attribute name="VALUE" x="116.84" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="287.02" y="111.76" smashed="yes" rot="R90">
@@ -33472,6 +33482,28 @@ guten rausuchen</text>
 <attribute name="VALUE" x="340.614" y="27.94" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="358.648" y="27.94" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
+<instance part="LED_02" gate="G$1" x="86.36" y="-40.64" smashed="yes">
+<attribute name="NAME" x="89.916" y="-45.212" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.075" y="-45.212" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="86.36" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.8614" y="-54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.662" y="-54.61" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND31" gate="1" x="86.36" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="83.82" y="-63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="LED_03" gate="G$1" x="104.14" y="-40.64" smashed="yes">
+<attribute name="NAME" x="107.696" y="-45.212" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.855" y="-45.212" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="104.14" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.6414" y="-54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="-54.61" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND32" gate="1" x="104.14" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="101.6" y="-63.5" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -33521,7 +33553,7 @@ guten rausuchen</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="119.38" y1="160.02" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="160.02" x2="119.38" y2="157.48" width="0.1524" layer="91" grouprefs="LED"/>
 </segment>
 <segment>
 <pinref part="R7" gate="1" pin="2"/>
@@ -33700,6 +33732,16 @@ guten rausuchen</text>
 <pinref part="GND30" gate="1" pin="GND"/>
 <junction x="370.84" y="0"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="86.36" y1="-55.88" x2="86.36" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="104.14" y1="-55.88" x2="104.14" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="V+" class="0">
 <segment>
@@ -33827,7 +33869,7 @@ guten rausuchen</text>
 <wire x1="114.3" y1="182.88" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="LED_01" gate="G$1" pin="A"/>
 <wire x1="119.38" y1="182.88" x2="124.46" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="177.8" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="177.8" x2="119.38" y2="182.88" width="0.1524" layer="91" grouprefs="LED"/>
 <junction x="119.38" y="182.88"/>
 </segment>
 <segment>
@@ -35042,6 +35084,50 @@ guten rausuchen</text>
 <label x="-15.24" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$21" class="0">
+<segment>
+<wire x1="149.86" y1="-5.08" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-5.08" x2="68.58" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-73.66" x2="149.86" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-73.66" x2="149.86" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="LED_02" gate="G$1" pin="A"/>
+<wire x1="86.36" y1="-38.1" x2="86.36" y2="-33.02" width="0.1524" layer="91"/>
+<label x="86.36" y="-33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="12"/>
+<wire x1="2.54" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="-2.54" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="LED_02" gate="G$1" pin="C"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<wire x1="104.14" y1="-38.1" x2="104.14" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="LED_03" gate="G$1" pin="A"/>
+<label x="104.14" y="-33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="-2.54" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="LED_03" gate="G$1" pin="C"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -35066,6 +35152,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.5" severity="warning">
+Since Version 9.5, EAGLE supports persistent groups with
+schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
