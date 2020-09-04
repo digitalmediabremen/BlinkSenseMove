@@ -5,11 +5,10 @@
   Enjoy. 
 */
 
-
-//Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping
+//This line includes the Bounce2 library which cleans up button inputs
 #include <Bounce2.h>
 
-//This line includes the Bounce2 library which cleans up button inputs
+//Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping
 #include "BSM_System.h"
 
 // Instantiate a Bounce object, one for each Button
