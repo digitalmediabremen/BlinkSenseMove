@@ -1,3 +1,10 @@
+/*
+	This sketch demonstrates blinking the onboard LEDs of Blink Sense Move.
+	Add jumpers between pins 1 and 12 and the corresponding LED_0X pin.
+	Enjoy.
+*/
+
+
 //Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping
 #include "BSM_System.h"
 
