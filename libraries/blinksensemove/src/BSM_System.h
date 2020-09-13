@@ -7,8 +7,6 @@
 extern "C" {
 #endif
 
-#pragma once
-
 //Buttons
 #define BUTTON_01 2
 #define BUTTON_02 3
@@ -53,10 +51,6 @@ extern "C" {
 //Mosfets
 #define MOSFET_01 22
 #define MOSFET_02 23
-
-
-
-
 
 void foobar();
 
