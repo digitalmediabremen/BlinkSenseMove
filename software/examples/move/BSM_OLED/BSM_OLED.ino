@@ -1,6 +1,7 @@
 /**************************************************************************
  This sektch demonstrates the use of OLEDs based on SSD1306 drivers
  with the Blink Sense Move Board.
+ To use the OLED connect the corresponding pins for the display (DISPLAY_CLK, DISPLAY_CS, DISPLAY_DC, DISPLAY_DIN and DISPLAY_RES) to their Teensy pins using jumpers.
 
  It is based on the on the Adafruit OLED example.
 
