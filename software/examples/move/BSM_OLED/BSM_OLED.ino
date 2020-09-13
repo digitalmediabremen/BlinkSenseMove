@@ -1,35 +1,31 @@
 /**************************************************************************
- This is an example for our Monochrome OLEDs based on SSD1306 drivers
+ This sektch demonstrates the use of OLEDs based on SSD1306 drivers
+ with the Blink Sense Move Board.
 
- Pick one up today in the adafruit shop!
- ------> http://www.adafruit.com/category/63_98
+ It is based on the on the Adafruit OLED example.
 
  This example is for a 128x64 pixel display using SPI to communicate
  4 or 5 pins are required to interface.
 
- Adafruit invests time and resources providing this open
- source code, please support Adafruit and open-source
- hardware by purchasing products from Adafruit!
-
- Written by Limor Fried/Ladyada for Adafruit Industries,
+ Original sketch written by Limor Fried/Ladyada for Adafruit Industries,
  with contributions from the open source community.
  BSD license, check license.txt for more information
  All text above, and the splash screen below must be
  included in any redistribution.
  **************************************************************************/
 
+/* include the libraries used in this sketch.*/
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include "BSM_System.h"
 
-#define SCREEN_WIDTH 128 // OLED display width, in pixels
-#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+/* defines screen width and hight of the display in pixels*/
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
 
-//Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
-//  OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
- 
+/* initiates the display with the corresponding pins.*/
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
   DISPLAY_DIN, DISPLAY_CLK, DISPLAY_DC, DISPLAY_RES, DISPLAY_CS);
 
@@ -42,7 +38,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
   &SPI, OLED_DC, OLED_RESET, OLED_CS);
 */
 
-#define NUMFLAKES     10 // Number of snowflakes in the animation example
+/* Number of snowflakes in the animation example*/
+#define NUMFLAKES     10 
 
 #define LOGO_HEIGHT   16
 #define LOGO_WIDTH    16
@@ -66,65 +63,67 @@ static const unsigned char PROGMEM logo_bmp[] = { B00000000, B11000000,
 void setup() {
   Serial.begin(9600);
 
-  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
+  /* SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally */
   if(!display.begin(SSD1306_SWITCHCAPVCC)) {
     Serial.println(F("SSD1306 allocation failed"));
-    for(;;); // Don't proceed, loop forever
+    /*Don't proceed, loop forever */
+    for(;;); 
   }
 
-  // Show initial display buffer contents on the screen --
-  // the library initializes this with an Adafruit splash screen.
-  display.display();
-  delay(2000); // Pause for 2 seconds
-
-  // Clear the buffer
-  display.clearDisplay();
-
-  // Draw a single pixel in white
-  display.drawPixel(10, 10, SSD1306_WHITE);
-
-  // Show the display buffer on the screen. You MUST call display() after
-  // drawing commands to make them visible on screen!
+  /* Show initial display buffer contents on the screen --
+  the library initializes this with an Adafruit splash screen.*/
   display.display();
   delay(2000);
-  // display.display() is NOT necessary after every single drawing command,
-  // unless that's what you want...rather, you can batch up a bunch of
-  // drawing operations and then update the screen all at once by calling
-  // display.display(). These examples demonstrate both approaches...
 
-  testdrawline();      // Draw many lines
+  /* Clear the buffer */
+  display.clearDisplay();
 
-  testdrawrect();      // Draw rectangles (outlines)
+  /* Draw a single pixel in white */
+  display.drawPixel(10, 10, SSD1306_WHITE);
 
-  testfillrect();      // Draw rectangles (filled)
+  /* Show the display buffer on the screen. You MUST call display() after
+  drawing commands to make them visible on screen! */
+  display.display();
+  delay(2000);
+  /* display.display() is NOT necessary after every single drawing command,
+  unless that's what you want...rather, you can batch up a bunch of
+  drawing operations and then update the screen all at once by calling
+  display.display(). These examples demonstrate both approaches... */
 
-  testdrawcircle();    // Draw circles (outlines)
+  testdrawline();      /* Draw many lines*/
 
-  testfillcircle();    // Draw circles (filled)
+  testdrawrect();      /* Draw rectangles (outlines)*/
 
-  testdrawroundrect(); // Draw rounded rectangles (outlines)
+  testfillrect();      /* Draw rectangles (filled)*/
 
-  testfillroundrect(); // Draw rounded rectangles (filled)
+  testdrawcircle();    /* Draw circles (outlines)*/
 
-  testdrawtriangle();  // Draw triangles (outlines)
+  testfillcircle();    /* Draw circles (filled)*/
 
-  testfilltriangle();  // Draw triangles (filled)
+  testdrawroundrect(); /* Draw rounded rectangles (outlines)*/
 
-  testdrawchar();      // Draw characters of the default font
+  testfillroundrect(); /* Draw rounded rectangles (filled)*/
 
-  testdrawstyles();    // Draw 'stylized' characters
+  testdrawtriangle();  /* Draw triangles (outlines)*/
 
-  testscrolltext();    // Draw scrolling text
+  testfilltriangle();  /* Draw triangles (filled)*/
 
-  testdrawbitmap();    // Draw a small bitmap image
+  testdrawchar();      /* Draw characters of the default font*/
 
-  // Invert and restore display, pausing in-between
+  testdrawstyles();    /* Draw 'stylized' characters*/
+
+  testscrolltext();    /* Draw scrolling text*/
+
+  testdrawbitmap();    /* Draw a small bitmap image*/
+
+  /* Invert and restore display, pausing in-between*/
   display.invertDisplay(true);
   delay(1000);
   display.invertDisplay(false);
   delay(1000);
 
-  testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT); // Animate bitmaps
+  /* Animate bitmaps*/
+  testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT); 
 }
 
 void loop() {
@@ -133,11 +132,12 @@ void loop() {
 void testdrawline() {
   int16_t i;
 
-  display.clearDisplay(); // Clear display buffer
+  /* Clear display buffer*/
+  display.clearDisplay(); 
 
   for(i=0; i<display.width(); i+=4) {
     display.drawLine(0, 0, i, display.height()-1, SSD1306_WHITE);
-    display.display(); // Update screen with each newly-drawn line
+    display.display(); /* Update screen with each newly-drawn line*/
     delay(1);
   }
   for(i=0; i<display.height(); i+=4) {
@@ -188,7 +188,7 @@ void testdrawline() {
     delay(1);
   }
 
-  delay(2000); // Pause for 2 seconds
+  delay(2000); /* Pause for 2 seconds*/
 }
 
 void testdrawrect(void) {
@@ -196,7 +196,7 @@ void testdrawrect(void) {
 
   for(int16_t i=0; i<display.height()/2; i+=2) {
     display.drawRect(i, i, display.width()-2*i, display.height()-2*i, SSD1306_WHITE);
-    display.display(); // Update screen with each newly-drawn rectangle
+    display.display(); /* Update screen with each newly-drawn rectangle*/
     delay(1);
   }
 
@@ -207,9 +207,9 @@ void testfillrect(void) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2; i+=3) {
-    // The INVERSE color is used so rectangles alternate white/black
+    /* The INVERSE color is used so rectangles alternate white/black*/
     display.fillRect(i, i, display.width()-i*2, display.height()-i*2, SSD1306_INVERSE);
-    display.display(); // Update screen with each newly-drawn rectangle
+    display.display(); /* Update screen with each newly-drawn rectangle*/
     delay(1);
   }
 
@@ -232,9 +232,9 @@ void testfillcircle(void) {
   display.clearDisplay();
 
   for(int16_t i=max(display.width(),display.height())/2; i>0; i-=3) {
-    // The INVERSE color is used so circles alternate white/black
+    /* The INVERSE color is used so circles alternate white/black*/
     display.fillCircle(display.width() / 2, display.height() / 2, i, SSD1306_INVERSE);
-    display.display(); // Update screen with each newly-drawn circle
+    display.display(); /* Update screen with each newly-drawn circle*/
     delay(1);
   }
 
@@ -258,7 +258,7 @@ void testfillroundrect(void) {
   display.clearDisplay();
 
   for(int16_t i=0; i<display.height()/2-2; i+=2) {
-    // The INVERSE color is used so round-rects alternate white/black
+    /* The INVERSE color is used so round-rects alternate white/black*/
     display.fillRoundRect(i, i, display.width()-2*i, display.height()-2*i,
       display.height()/4, SSD1306_INVERSE);
     display.display();
@@ -287,7 +287,7 @@ void testfilltriangle(void) {
   display.clearDisplay();
 
   for(int16_t i=max(display.width(),display.height())/2; i>0; i-=5) {
-    // The INVERSE color is used so triangles alternate white/black
+    /* The INVERSE color is used so triangles alternate white/black*/
     display.fillTriangle(
       display.width()/2  , display.height()/2-i,
       display.width()/2-i, display.height()/2+i,
@@ -302,13 +302,13 @@ void testfilltriangle(void) {
 void testdrawchar(void) {
   display.clearDisplay();
 
-  display.setTextSize(1);      // Normal 1:1 pixel scale
-  display.setTextColor(SSD1306_WHITE); // Draw white text
-  display.setCursor(0, 0);     // Start at top-left corner
-  display.cp437(true);         // Use full 256 char 'Code Page 437' font
+  display.setTextSize(1);      /* Normal 1:1 pixel scale*/
+  display.setTextColor(SSD1306_WHITE); /* Draw white text*/
+  display.setCursor(0, 0);     /* Start at top-left corner*/
+  display.cp437(true);         /* Use full 256 char 'Code Page 437' font*/
 
-  // Not all the characters will fit on the display. This is normal.
-  // Library will draw what it can and the rest will be clipped.
+  /* Not all the characters will fit on the display. This is normal.
+  Library will draw what it can and the rest will be clipped.*/
   for(int16_t i=0; i<256; i++) {
     if(i == '\n') display.write(' ');
     else          display.write(i);
@@ -321,15 +321,15 @@ void testdrawchar(void) {
 void testdrawstyles(void) {
   display.clearDisplay();
 
-  display.setTextSize(1);             // Normal 1:1 pixel scale
-  display.setTextColor(SSD1306_WHITE);        // Draw white text
-  display.setCursor(0,0);             // Start at top-left corner
+  display.setTextSize(1);             /* Normal 1:1 pixel scale*/
+  display.setTextColor(SSD1306_WHITE);        /* Draw white text*/
+  display.setCursor(0,0);             /* Start at top-left corner*/
   display.println(F("Hello, Blink Sense Move"));
 
-  display.setTextColor(SSD1306_BLACK, SSD1306_WHITE); // Draw 'inverse' text
+  display.setTextColor(SSD1306_BLACK, SSD1306_WHITE); /* Draw 'inverse' text*/
   display.println(3.141592);
 
-  display.setTextSize(2);             // Draw 2X-scale text
+  display.setTextSize(2);             /* Draw 2X-scale text*/
   display.setTextColor(SSD1306_WHITE);
   display.print(F("0x")); display.println(0xDEADBEEF, HEX);
 
@@ -340,14 +340,14 @@ void testdrawstyles(void) {
 void testscrolltext(void) {
   display.clearDisplay();
 
-  display.setTextSize(2); // Draw 2X-scale text
+  display.setTextSize(2); /* Draw 2X-scale text*/
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(10, 0);
   display.println(F("scroll"));
-  display.display();      // Show initial text
+  display.display();      /*/ Show initial text*/
   delay(100);
 
-  // Scroll in various directions, pausing in-between:
+  /* Scroll in various directions, pausing in-between:*/
   display.startscrollright(0x00, 0x0F);
   delay(2000);
   display.stopscroll();
@@ -375,14 +375,14 @@ void testdrawbitmap(void) {
   delay(1000);
 }
 
-#define XPOS   0 // Indexes into the 'icons' array in function below
+#define XPOS   0 /* Indexes into the 'icons' array in function below*/
 #define YPOS   1
 #define DELTAY 2
 
 void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
   int8_t f, icons[NUMFLAKES][3];
 
-  // Initialize 'snowflake' positions
+  /* Initialize 'snowflake' positions*/
   for(f=0; f< NUMFLAKES; f++) {
     icons[f][XPOS]   = random(1 - LOGO_WIDTH, display.width());
     icons[f][YPOS]   = -LOGO_HEIGHT;
@@ -395,23 +395,23 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
     Serial.println(icons[f][DELTAY], DEC);
   }
 
-  for(;;) { // Loop forever...
-    display.clearDisplay(); // Clear the display buffer
+  for(;;) { /* Loop forever...*/
+    display.clearDisplay(); /* Clear the display buffer*/
 
-    // Draw each snowflake:
+    /* Draw each snowflake:*/
     for(f=0; f< NUMFLAKES; f++) {
       display.drawBitmap(icons[f][XPOS], icons[f][YPOS], bitmap, w, h, SSD1306_WHITE);
     }
 
-    display.display(); // Show the display buffer on the screen
-    delay(200);        // Pause for 1/10 second
+    display.display(); /* Show the display buffer on the screen*/
+    delay(200);        /* Pause for 1/10 second*/
 
-    // Then update coordinates of each flake...
+    /* Then update coordinates of each flake...*/
     for(f=0; f< NUMFLAKES; f++) {
       icons[f][YPOS] += icons[f][DELTAY];
-      // If snowflake is off the bottom of the screen...
+      /* If snowflake is off the bottom of the screen...*/
       if (icons[f][YPOS] >= display.height()) {
-        // Reinitialize to a random position, just off the top
+        /* Reinitialize to a random position, just off the top*/
         icons[f][XPOS]   = random(1 - LOGO_WIDTH, display.width());
         icons[f][YPOS]   = -LOGO_HEIGHT;
         icons[f][DELTAY] = random(1, 6);
