@@ -46,8 +46,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT,
 
 #define LOGO_HEIGHT   16
 #define LOGO_WIDTH    16
-static const unsigned char PROGMEM logo_bmp[] =
-{ B00000000, B11000000,
+static const unsigned char PROGMEM logo_bmp[] = { B00000000, B11000000,
   B00000001, B11000000,
   B00000001, B11000000,
   B00000011, B11100000,
@@ -72,7 +71,6 @@ void setup() {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;); // Don't proceed, loop forever
   }
-
 
   // Show initial display buffer contents on the screen --
   // the library initializes this with an Adafruit splash screen.
