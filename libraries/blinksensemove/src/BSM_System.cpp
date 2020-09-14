@@ -1,5 +1,4 @@
 #include "BSM_System.h"
 
-void foobar() {
-    printf("foobar\n");
+void init_BSM() {
 }
