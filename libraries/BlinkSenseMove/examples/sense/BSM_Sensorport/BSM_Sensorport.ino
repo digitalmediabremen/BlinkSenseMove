@@ -6,7 +6,7 @@
  */
 
 /* Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping*/
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* As the Pin for LED_01 does not have the capability of PWM we will overwrite the Pin, as well as using a female to female
 jumper between the LED_01 and Pin 03 of the Teensy */

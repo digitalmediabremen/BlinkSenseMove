@@ -4,7 +4,7 @@
 */
 
 /* BSM_System.h includes the Blink Sense Move library */
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 void setup() {
   /* define the used pins as outputs */

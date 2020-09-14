@@ -1,5 +1,5 @@
-#ifndef BSM_System
-#define BSM_System
+#ifndef BlinkSenseMove
+#define BlinkSenseMove
 
 #include <stdio.h>
 
@@ -21,12 +21,16 @@ extern "C" {
 #define DISPLAY_CLK 8
 #define DISPLAY_CS 9
 
+/* OLED specific */
+#define DISPLAY_DC 10
+#define DISPLAY_RES 11
+
 /* LEDs */
 #define LED_01 12
 #define LED_02 1
 
 /* Stepper driver */
-#define STEPPER_DIR 13 //Also switches on board LED of Teensy
+#define STEPPER_DIR 13 /* Also switches on board LED of Teensy */
 #define STEPPER_STP 14
 #define STEPPER_SLP 15
 #define STEPPER_RST 16

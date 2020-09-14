@@ -20,7 +20,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* defines screen width and hight of the display in pixels*/
 #define SCREEN_WIDTH 128

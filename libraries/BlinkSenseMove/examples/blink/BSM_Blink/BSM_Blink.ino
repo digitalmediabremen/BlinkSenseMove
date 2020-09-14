@@ -5,7 +5,7 @@
 */
 
 /* Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping*/
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* Overwrite the predefined pins with another define in the sketch, like shown below. Uncomment and see what happens.*/
 // #define LED_01 13

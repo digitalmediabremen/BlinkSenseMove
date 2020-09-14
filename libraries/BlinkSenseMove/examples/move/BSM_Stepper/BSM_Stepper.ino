@@ -1,10 +1,10 @@
 /* 	This sketch demonstrates the usage of Stepper Motors with Blink Sense Move with the help of a DRV8825 or compatible Driver. To use the driver connect the used pins with the corresponding Teensy pins. The stepper drivers can be configured (microstepping etc.) via the STP_CONF patchbay. JP_01 choses either the external power or the internal 5v. Take care, the internal voltage conversion only supplies up to 1.5A. 
 Enjoy. */
 
-/* Include these libraries. Bounce2 debounces the button, BSM_System.h includes the Blink Sense Move library, AccelStepper is the library used for the stepper. */
+/* Include these libraries. Bounce2 debounces the button, BlinkSenseMove.h includes the Blink Sense Move library, AccelStepper is the library used for the stepper. */
 #include <AccelStepper.h>
 #include <Bounce2.h>
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* Define some steppers and the pins the will use */
 AccelStepper stepper1(AccelStepper::FULL2WIRE, STEPPER_STP, STEPPER_DIR);

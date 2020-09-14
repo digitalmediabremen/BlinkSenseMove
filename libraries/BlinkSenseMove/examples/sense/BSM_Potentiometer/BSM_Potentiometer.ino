@@ -5,7 +5,7 @@
 */
 
 /*Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping */
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* As the standart LED pins dont support hardware PWM, this overwrites the pin definitions. Use two female to female jumpers
 to connect the teensy pins written below (3 and 4) to LED_01 and LED_02. Connect POT_01 and POT_02 to their corresponding Teensy

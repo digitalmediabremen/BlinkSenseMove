@@ -5,9 +5,9 @@
   Enjoy.
 */
 
-/* Include these libraries. Bounce2 debounces the button, BSM_System.h includes the Blink Sense Move library, pitches.h includes the definitions of the pitches of certain tones. */
+/* Include these libraries. Bounce2 debounces the button, BlinkSenseMove.h includes the Blink Sense Move library, pitches.h includes the definitions of the pitches of certain tones. */
 #include <Bounce2.h>
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 #include "pitches.h"
 
 
@@ -35,7 +35,6 @@ void loop() {
   if (debounce.fell()) {
     playMelody(TONEPIN);
   }
-
 }
 
 /* This function is responsible to play the melody.*/

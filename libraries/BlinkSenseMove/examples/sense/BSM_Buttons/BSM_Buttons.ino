@@ -9,7 +9,7 @@
 #include <Bounce2.h>
 
 /* Include this into all Blink Sense Move Sketches if you want to use the predifined Pins. You can change these mapping */
-#include "BSM_System.h"
+#include "BlinkSenseMove.h"
 
 /* Instantiate a Bounce object, one for each Button */
 Bounce debouncer1 = Bounce();
